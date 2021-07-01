@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alva Piarri</title>
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="title">
+        <h1>Alva Piarri</h1>
+    </header>
+
+    <div class="bg-secondary">
+        <nav class="nav-bar container">
+            <a href="">Services</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Digital creator</h2>
+            <div class="place">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tree" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 13l-2 -2" />
+                    <path d="M12 12l2 -2" />
+                    <path d="M12 21v-13" />
+                    <path d="M9.824 15.995a3 3 0 0 1 -2.743 -3.69a2.998 2.998 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a2.997 2.997 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h.001h-4z" />
+                </svg>
+                <p>Isla Cristina, Andalucía</p>
+            </div>
+            <a class="contact-button" href="#">Contact</a>
+        </div>
+    </section>
+
+    <main class="container"> 
+        
+        <h2>Services</h2>
+
+        <!-- Este div es la madre de los 3 sections al que se aplica la propiedad CSS Grid -->
+        <div class="services-grid">
+        
+            <section class="services">
+            <div class="services-icon shadow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bone" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l-.005 -.177l-.176 -.005a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z" />
+                </svg>
+            </div>            
+            <h3 class="service-1">1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, amet corporis. Sit debitis obcaecati, harum velit ipsam suscipit error asperiores?</p>
+            </section>
+
+            <section class="services">
+            <div class="services-icon shadow">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-double-ne-sw" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 14l11 -11" />
+                    <path d="M10 3h4v4" />
+                    <path d="M10 17v4h4" />
+                    <path d="M21 10l-11 11" />
+                </svg>
+            </div>       
+            <h3 class="service-2">2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellat ipsa repellendus dicta cupiditate porro dolorem! Quasi ipsum omnis sit?</p>
+            </section>
+
+            <section class="services">
+                <div class="services-icon shadow">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+                        <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+                        <line x1="8" y1="11" x2="10" y2="13" />
+                        <line x1="16" y1="11" x2="14" y2="13" />
+                    </svg>
+                </div>
+            <h3 class="service-3">3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia earum deserunt hic maiores tempora accusamus repellendus consequuntur error temporibus placeat.</p>
+            </section>
+        </div>
+    
+
+        <section class="contact">
+            <h2>Contact</h2>
+
+            <form class="form shadow">
+                <fieldset>
+                    <legend>Yes, <span>all</span> fields are required :)</legend>
+                </fieldset>
+                <div class="input-container">
+                    <div class="input">
+                        <label for="name">Name</label><input class="input-text" type="text" placeholder="First and last name" name="" id="" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label><input class="input-text" type="email" name="" id="" required>
+                    </div>
+                    <div class="input">
+                        <label for="website">Website</label><input class="input-text" type="text" name="" id="" required>
+                    </div>
+                    <div class="input">
+                        <label for="message">Message</label><textarea class="input-text" name="" placeholder="Enter your message here" id="" cols="30" rows="5" required></textarea>
+                    </div>
+                </div> <!-- INPUT-CONTAINER END -->
+
+                <div class="flex align-right">
+                    <input class="contact-button w-100 m-top pointer" type="submit" value="Send">
+                </div>
+            </form>
+        </section> <!-- CONTACT END -->
+
+    </main>
+
+    
+    <footer class="footer">
+        <div class="rights">
+            <p>2021. All rights reserved.</p>
+        </div>
+        <div class="credits">
+            <p>Designed & developed by <a href="https://folio21.cesarcaso.eu" target="_blank">
+            <img src="../01_FREELANCE/freelancer_inicio/logo-web_n.svg" alt=""></a></p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
