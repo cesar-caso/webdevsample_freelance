@@ -81,7 +81,7 @@ HERO
 ************/
 
 .hero {
-  background-image: url("../01_FREELANCE/freelancer_inicio/hero.jpg");
+  background-image: url("freelancer_inicio/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 45rem;
